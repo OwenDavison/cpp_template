@@ -1,0 +1,24 @@
+# vim swap files
+*.swp
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# CMake directories
+build
+debug
+release
+
+# Libraries
+lib
