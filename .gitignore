@@ -15,6 +15,9 @@
 *.la
 *.a
 
+# Compiled python
+*.pyc
+
 # CMake directories
 build
 debug
