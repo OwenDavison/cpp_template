@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 project(my_project)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
+
 # General
 ###############################################################################
 # Activate C++0x support (if you encounter gmock errors, use 1.6.0 version)
