@@ -1,4 +1,4 @@
 language: cpp
 compiler:
   - gcc
-script: cmake -Bbuild -H. && cd build && make && make test
+script: ./setup.sh && cmake -Bbuild -H. && cd build && make && make test
